@@ -34,6 +34,7 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
@@ -47,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Feb 17, 2022 08:40:23 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 20, 2022 08:20:55 AM</span>
 				</a>
 			</li>
 			<li>
@@ -73,6 +74,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -137,10 +139,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>11</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='90.909%'><span class='strong'>10</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='9.091%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -152,10 +154,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>11</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='90.909%'><span class='strong'>10</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='9.091%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -173,14 +175,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>validatePageTitleTest</span>
-						<span class='test-time'>Feb 17, 2022 08:40:26 PM</span>
+						<span class='test-time'>Feb 20, 2022 08:20:59 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 17, 2022 08:40:26 PM</span>
-	<span class='label end-time'>Feb 17, 2022 08:40:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+48ms</span>
+	<span class='label start-time'>Feb 20, 2022 08:20:59 AM</span>
+	<span class='label end-time'>Feb 20, 2022 08:20:59 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+154ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -200,7 +202,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:40:26 PM</td>
+					<td class='timestamp'>8:20:59 AM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -213,14 +215,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>verifyLogoTest</span>
-						<span class='test-time'>Feb 17, 2022 08:40:26 PM</span>
+						<span class='test-time'>Feb 20, 2022 08:20:59 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 17, 2022 08:40:26 PM</span>
-	<span class='label end-time'>Feb 17, 2022 08:40:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+205ms</span>
+	<span class='label start-time'>Feb 20, 2022 08:20:59 AM</span>
+	<span class='label end-time'>Feb 20, 2022 08:20:59 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+223ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -240,7 +242,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:40:26 PM</td>
+					<td class='timestamp'>8:20:59 AM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -253,14 +255,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>verifyRegisterLinkTest</span>
-						<span class='test-time'>Feb 17, 2022 08:40:26 PM</span>
+						<span class='test-time'>Feb 20, 2022 08:20:59 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 17, 2022 08:40:26 PM</span>
-	<span class='label end-time'>Feb 17, 2022 08:40:27 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+212ms</span>
+	<span class='label start-time'>Feb 20, 2022 08:20:59 AM</span>
+	<span class='label end-time'>Feb 20, 2022 08:20:59 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+231ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -280,7 +282,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:40:27 PM</td>
+					<td class='timestamp'>8:20:59 AM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -292,15 +294,55 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
 					<div class='test-heading'>
-						<span class='test-name'>verifyLoginPageNameTest</span>
-						<span class='test-time'>Feb 17, 2022 08:40:26 PM</span>
+						<span class='test-name'>verifyLoginLinkTest</span>
+						<span class='test-time'>Feb 20, 2022 08:20:59 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 17, 2022 08:40:26 PM</span>
-	<span class='label end-time'>Feb 17, 2022 08:40:27 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+173ms</span>
+	<span class='label start-time'>Feb 20, 2022 08:20:59 AM</span>
+	<span class='label end-time'>Feb 20, 2022 08:21:00 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+214ms</span>
+</div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>nopCommerceregressiontestsuite</span>
+				<span class='category label white-text'>HomePageTest</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:21:00 AM</td>
+					<td class='step-details'>Test passed</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyLoginPageNameTest</span>
+						<span class='test-time'>Feb 20, 2022 08:21:00 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 20, 2022 08:21:00 AM</span>
+	<span class='label end-time'>Feb 20, 2022 08:21:00 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+224ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -320,47 +362,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:40:27 PM</td>
-					<td class='step-details'>Test passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
-					<div class='test-heading'>
-						<span class='test-name'>verifyLoginLinkTest</span>
-						<span class='test-time'>Feb 17, 2022 08:40:27 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Feb 17, 2022 08:40:27 PM</span>
-	<span class='label end-time'>Feb 17, 2022 08:40:27 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+168ms</span>
-</div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>nopCommerceregressiontestsuite</span>
-				<span class='category label white-text'>HomePageTest</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:40:27 PM</td>
+					<td class='timestamp'>8:21:00 AM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -373,14 +375,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
 					<div class='test-heading'>
 						<span class='test-name'>verifyRegisterButtonStatus</span>
-						<span class='test-time'>Feb 17, 2022 08:40:27 PM</span>
+						<span class='test-time'>Feb 20, 2022 08:21:00 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 17, 2022 08:40:27 PM</span>
-	<span class='label end-time'>Feb 17, 2022 08:40:27 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+185ms</span>
+	<span class='label start-time'>Feb 20, 2022 08:21:00 AM</span>
+	<span class='label end-time'>Feb 20, 2022 08:21:00 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+219ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -400,7 +402,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:40:27 PM</td>
+					<td class='timestamp'>8:21:00 AM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -413,14 +415,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
 					<div class='test-heading'>
 						<span class='test-name'>verifySearchPageNameTest</span>
-						<span class='test-time'>Feb 17, 2022 08:40:27 PM</span>
+						<span class='test-time'>Feb 20, 2022 08:21:00 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 17, 2022 08:40:27 PM</span>
-	<span class='label end-time'>Feb 17, 2022 08:40:27 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+185ms</span>
+	<span class='label start-time'>Feb 20, 2022 08:21:00 AM</span>
+	<span class='label end-time'>Feb 20, 2022 08:21:00 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+215ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -440,7 +442,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:40:27 PM</td>
+					<td class='timestamp'>8:21:00 AM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -450,17 +452,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='8'>
 					<div class='test-heading'>
 						<span class='test-name'>validateUserLoginTest</span>
-						<span class='test-time'>Feb 17, 2022 08:40:27 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Feb 20, 2022 08:21:00 AM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 17, 2022 08:40:27 PM</span>
-	<span class='label end-time'>Feb 17, 2022 08:40:30 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+83ms</span>
+	<span class='label start-time'>Feb 20, 2022 08:21:00 AM</span>
+	<span class='label end-time'>Feb 20, 2022 08:21:13 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 13s+112ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -478,10 +480,60 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:40:30 PM</td>
-					<td class='step-details'>Test passed</td>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>8:21:14 AM</td>
+					<td class='step-details'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log out"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '172.30.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\menzi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87d2a4567cde5ec1b091227c90751ae3
+*** Element info: {Using=link text, value=Log out}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.nopcommerce.util.ElementUtil.getElement(ElementUtil.java:25)
+	at com.nopcommerce.util.ElementUtil.doIsDisplayed(ElementUtil.java:48)
+	at com.nopcommerce.pages.HomePage.verifyLogout(HomePage.java:91)
+	at com.nopcommerce.tests.LoginPageTest.validateUserLoginTest(LoginPageTest.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre><img data-featherlight='C:\Users\menzi\IdeaProjects\MyFirstPageObjectModelAutomationFramework\MyFirstPageObjectModelAutomationFramework/screenshots/1645370474279.png' width='10%' src='C:\Users\menzi\IdeaProjects\MyFirstPageObjectModelAutomationFramework\MyFirstPageObjectModelAutomationFramework/screenshots/1645370474279.png' data-src='C:\Users\menzi\IdeaProjects\MyFirstPageObjectModelAutomationFramework\MyFirstPageObjectModelAutomationFramework/screenshots/1645370474279.png'></td>
 				</tr>
 			</tbody>
 		</table>
@@ -493,14 +545,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
 					<div class='test-heading'>
 						<span class='test-name'>registerNewUserTest</span>
-						<span class='test-time'>Feb 17, 2022 08:40:27 PM</span>
+						<span class='test-time'>Feb 20, 2022 08:21:01 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 17, 2022 08:40:27 PM</span>
-	<span class='label end-time'>Feb 17, 2022 08:40:34 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+150ms</span>
+	<span class='label start-time'>Feb 20, 2022 08:21:01 AM</span>
+	<span class='label end-time'>Feb 20, 2022 08:21:09 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+120ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -520,7 +572,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:40:34 PM</td>
+					<td class='timestamp'>8:21:09 AM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -533,14 +585,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
 					<div class='test-heading'>
 						<span class='test-name'>verifyManufactureDropDownListTest</span>
-						<span class='test-time'>Feb 17, 2022 08:40:28 PM</span>
+						<span class='test-time'>Feb 20, 2022 08:21:01 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 17, 2022 08:40:28 PM</span>
-	<span class='label end-time'>Feb 17, 2022 08:40:28 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+430ms</span>
+	<span class='label start-time'>Feb 20, 2022 08:21:01 AM</span>
+	<span class='label end-time'>Feb 20, 2022 08:21:01 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+464ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -560,7 +612,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:40:28 PM</td>
+					<td class='timestamp'>8:21:01 AM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -573,14 +625,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
 					<div class='test-heading'>
 						<span class='test-name'>validateCategoryListTest</span>
-						<span class='test-time'>Feb 17, 2022 08:40:29 PM</span>
+						<span class='test-time'>Feb 20, 2022 08:21:02 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 17, 2022 08:40:29 PM</span>
-	<span class='label end-time'>Feb 17, 2022 08:40:29 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+70ms</span>
+	<span class='label start-time'>Feb 20, 2022 08:21:02 AM</span>
+	<span class='label end-time'>Feb 20, 2022 08:21:02 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+89ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -600,7 +652,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:40:29 PM</td>
+					<td class='timestamp'>8:21:02 AM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -662,13 +714,14 @@
 					<div class='category-heading'>
 						<span class='category-name'>nopCommerceregressiontestsuite</span>
 						<span class='category-status right'>
-							<span class='label pass'>11</span>
+							<span class='label pass'>10</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 11</span>
-							
+							<span class='label green accent-4 white-text'>Passed: 10</span>
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -683,57 +736,57 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 17, 2022 08:40:26 PM</td>
+										<td>Feb 20, 2022 08:20:59 AM</td>
 										<td class='linked' test-id='1'>validatePageTitleTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:26 PM</td>
+										<td>Feb 20, 2022 08:20:59 AM</td>
 										<td class='linked' test-id='2'>verifyLogoTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:26 PM</td>
+										<td>Feb 20, 2022 08:20:59 AM</td>
 										<td class='linked' test-id='3'>verifyRegisterLinkTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:26 PM</td>
-										<td class='linked' test-id='4'>verifyLoginPageNameTest</td>
+										<td>Feb 20, 2022 08:20:59 AM</td>
+										<td class='linked' test-id='4'>verifyLoginLinkTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:27 PM</td>
-										<td class='linked' test-id='5'>verifyLoginLinkTest</td>
+										<td>Feb 20, 2022 08:21:00 AM</td>
+										<td class='linked' test-id='5'>verifyLoginPageNameTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:27 PM</td>
+										<td>Feb 20, 2022 08:21:00 AM</td>
 										<td class='linked' test-id='6'>verifyRegisterButtonStatus</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:27 PM</td>
+										<td>Feb 20, 2022 08:21:00 AM</td>
 										<td class='linked' test-id='7'>verifySearchPageNameTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:27 PM</td>
+										<td>Feb 20, 2022 08:21:00 AM</td>
 										<td class='linked' test-id='8'>validateUserLoginTest</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:27 PM</td>
+										<td>Feb 20, 2022 08:21:01 AM</td>
 										<td class='linked' test-id='9'>registerNewUserTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:28 PM</td>
+										<td>Feb 20, 2022 08:21:01 AM</td>
 										<td class='linked' test-id='10'>verifyManufactureDropDownListTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:29 PM</td>
+										<td>Feb 20, 2022 08:21:02 AM</td>
 										<td class='linked' test-id='11'>validateCategoryListTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -767,23 +820,23 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 17, 2022 08:40:26 PM</td>
+										<td>Feb 20, 2022 08:20:59 AM</td>
 										<td class='linked' test-id='1'>validatePageTitleTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:26 PM</td>
+										<td>Feb 20, 2022 08:20:59 AM</td>
 										<td class='linked' test-id='2'>verifyLogoTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:26 PM</td>
+										<td>Feb 20, 2022 08:20:59 AM</td>
 										<td class='linked' test-id='3'>verifyRegisterLinkTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:27 PM</td>
-										<td class='linked' test-id='5'>verifyLoginLinkTest</td>
+										<td>Feb 20, 2022 08:20:59 AM</td>
+										<td class='linked' test-id='4'>verifyLoginLinkTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -795,13 +848,14 @@
 					<div class='category-heading'>
 						<span class='category-name'>LoginPageTest</span>
 						<span class='category-status right'>
-							<span class='label pass'>3</span>
+							<span class='label pass'>2</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 3</span>
-							
+							<span class='label green accent-4 white-text'>Passed: 2</span>
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -816,19 +870,19 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 17, 2022 08:40:26 PM</td>
-										<td class='linked' test-id='4'>verifyLoginPageNameTest</td>
+										<td>Feb 20, 2022 08:21:00 AM</td>
+										<td class='linked' test-id='5'>verifyLoginPageNameTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:27 PM</td>
+										<td>Feb 20, 2022 08:21:00 AM</td>
 										<td class='linked' test-id='6'>verifyRegisterButtonStatus</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:27 PM</td>
+										<td>Feb 20, 2022 08:21:00 AM</td>
 										<td class='linked' test-id='8'>validateUserLoginTest</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -860,17 +914,17 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 17, 2022 08:40:27 PM</td>
+										<td>Feb 20, 2022 08:21:00 AM</td>
 										<td class='linked' test-id='7'>verifySearchPageNameTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:28 PM</td>
+										<td>Feb 20, 2022 08:21:01 AM</td>
 										<td class='linked' test-id='10'>verifyManufactureDropDownListTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Feb 17, 2022 08:40:29 PM</td>
+										<td>Feb 20, 2022 08:21:02 AM</td>
 										<td class='linked' test-id='11'>validateCategoryListTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -904,7 +958,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Feb 17, 2022 08:40:27 PM</td>
+										<td>Feb 20, 2022 08:21:01 AM</td>
 										<td class='linked' test-id='9'>registerNewUserTest</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -925,6 +979,117 @@
 	</div>
 </div>
 <!-- category view -->
+<div id='exception-view' class='view hide'>
+
+    <section id='controls'>
+        <div class='controls grey lighten-4'>
+            <!-- search -->
+            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
+                <a href="#" class='search-div'>
+                    <i class='material-icons'>search</i> Search
+                </a>
+
+                <div class='input-field left hide'>
+                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+                </div>
+
+            </div>
+            <!-- search -->
+        </div>
+    </section>
+
+    <div class='subview-left left'>
+
+        <div class='view-summary'>
+            <h5>Exceptions</h3>
+                <ul id='exception-collection' class='exception-collection'>
+
+                        <li class='exception displayed active'>
+                            <div class='exception-heading'>
+                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
+                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+                            </div>
+                            <div class='exception-content hide'>
+                                <div class='exception-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                                    <tr>
+                                                        <td>Feb 20, 2022 08:21:00 AM</td>
+                                                        <td class='linked' test-id='8'>validateUserLoginTest</td>
+                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log out"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '172.30.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\menzi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87d2a4567cde5ec1b091227c90751ae3
+*** Element info: {Using=link text, value=Log out}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.nopcommerce.util.ElementUtil.getElement(ElementUtil.java:25)
+	at com.nopcommerce.util.ElementUtil.doIsDisplayed(ElementUtil.java:48)
+	at com.nopcommerce.pages.HomePage.verifyLogout(HomePage.java:91)
+	at com.nopcommerce.tests.LoginPageTest.validateUserLoginTest(LoginPageTest.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></pre></td>
+                                                    </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                </ul>
+        </div>
+    </div>
+
+    <div class='subview-right left'>
+        <div class='view-summary'>
+            <h5 class='exception-name'></h5>
+        </div>
+    </div>
+</div>
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
@@ -946,19 +1111,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 17, 2022 08:40:23 PM</div>
+					<div class='panel-lead'>Feb 20, 2022 08:20:55 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 17, 2022 08:40:35 PM</div>
+			 		<div class='panel-lead'>Feb 20, 2022 08:21:14 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 11s+707ms</div>
+					<div class='panel-lead'>0h 0m 19s+832ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -975,11 +1140,11 @@
 						</tr>
 						<tr>
 							<td>nopCommerceregressiontestsuite</td>
-							<td>11</td>
-							<td>0</td>
+							<td>10</td>
+							<td>1</td>
 							<td>0</td>
 							<td>
-									100%
+									90.909%
 							</td>
 						</tr>
 						<tr>
@@ -993,11 +1158,11 @@
 						</tr>
 						<tr>
 							<td>LoginPageTest</td>
-							<td>3</td>
-							<td>0</td>
+							<td>2</td>
+							<td>1</td>
 							<td>0</td>
 							<td>
-									100%
+									66.667%
 							</td>
 						</tr>
 						<tr>
@@ -1031,22 +1196,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 11,
-				failParent: 0,
+				passParent: 10,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				
-				passChild: 11,
-				failChild: 0,
+				passChild: 10,
+				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 0,
+				exceptionsChild: 1,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
